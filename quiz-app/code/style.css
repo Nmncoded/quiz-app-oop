@@ -96,7 +96,68 @@ table {
 }
 
 /* quiz */
+.main-quiz, footer {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 form {
   border: 1px solid;
+  padding: 16px;
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+form button {
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border: 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+legend {
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 4px;
+  position: absolute;
+  top: -12px;
+}
+
+.options {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+}
+
+label {
+  margin-bottom: 16px;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 16px;
+}
+
+.prev-btn, .next-btn, .result-btn {
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border: 0;
+  font-size: 16px;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=style.css.map */

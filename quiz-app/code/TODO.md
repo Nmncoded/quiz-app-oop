@@ -11,6 +11,8 @@ DATA:
 - Options of the question
 - Correct answer
 
+
+
 METHODS:
 
 - isCorrect(answer)
