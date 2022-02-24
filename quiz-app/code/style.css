@@ -152,12 +152,44 @@ input {
   margin-bottom: 16px;
 }
 
-.prev-btn, .next-btn, .result-btn {
+.prev-btn, .next-btn, .result-btn, .answer-btn {
   color: white;
   background-color: black;
   padding: 6px;
   border: 0;
   font-size: 16px;
   border-radius: 4px;
+}
+
+.f-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.answer-btn {
+  display: none;
+}
+
+.f-text {
+  margin-top: 16px;
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 4px;
+  display: none;
+}
+
+.restart {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 0;
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
