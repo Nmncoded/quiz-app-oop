@@ -1,4 +1,5 @@
 // 
+function main (){
 let quizElm = document.querySelector(`.quiz`);
 let prevBtn = document.querySelector(`.prev-btn`);
 let nextBtn = document.querySelector(`.next-btn`);
@@ -160,3 +161,5 @@ resetBtn.addEventListener(`click`, () => {
     competition.restart();
     resetBtn.style.visibility = "hidden";
 })
+};
+main();
